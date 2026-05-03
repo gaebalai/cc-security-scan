@@ -4,16 +4,18 @@ Claude Code 용 보안 스킬 3종과, 그것을 평가하는 테스트 하니�
 
 ## 설치
 
-### 전제: gh-skill 확장 설치 (최초 1회)
+### 전제: gh-cc-skill 확장 설치 (최초 1회)
 
 ```bash
-gh extension install gaebalai/gh-skill
+gh extension install gaebalai/gh-cc-skill
 ```
+
+> 공식 `gh skill` (preview) 명령과 충돌하지 않도록 확장명을 `gh-cc-skill` (Claude Code skill) 로 사용합니다.
 
 ### 스킬 설치
 
 ```bash
-gh skill install gaebalai/cc-security-scan
+gh cc-skill install gaebalai/cc-security-scan
 ```
 
 `~/.claude/commands/` 에 3개의 스킬 파일이 배치됩니다. Claude Code 를 재시작한 후 사용해 주세요.
